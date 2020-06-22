@@ -1,0 +1,18 @@
+transition: describes changes
+
+mandatory values:
+- property
+- duration
+
+// shorthand notation:
+transition: property duration;
+transition: color 2s;
+
+optional values:
+- timing (defaults to ease)
+- delay (defaults to 0/immediate firing of transition)
+
+Exercise: Rolling a Ball
+
+codepen: https://codepen.io/lgm527/pen/GRoWbZX
+gist: https://gist.github.com/lgm527/7a063ac756901775217f364c2fedc4a3
