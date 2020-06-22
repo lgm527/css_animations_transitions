@@ -1,0 +1,13 @@
+transforming multiple properties
+
+never use "transition-property: all" - bad performance
+but must define all properties, utilize short notation and commas:
+
+transition:
+    color 2s,
+    transform 300ms 1s;
+
+Exercise: Color-changing a Ball
+
+codepen: https://codepen.io/lgm527/pen/JjGWgPB
+gist: https://gist.github.com/lgm527/517782360373e7ca9c58bd01d6dfe2f1
