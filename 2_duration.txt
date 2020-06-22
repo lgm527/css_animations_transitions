@@ -1,0 +1,11 @@
+duration:
+
+3 timeframes for user attention:
+- 100ms, instantaneous
+- 1 second, still connected
+- 10 seconds, disconnected
+
+250-300 ms "sweet spot" for animation (median of person's ability to notice change)
+faster != better
+
+utilize dev tools to slow down animations
