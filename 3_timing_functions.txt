@@ -1,0 +1,19 @@
+timing functions: cushioning, rate of change over time
+
+Timing function values:
+- linear
+- ease-in
+- ease-out
+- ease-in-out
+("ease" used to be called "slow")
+- steps
+- cubic-bezier (custom: https://cubic-bezier.com/)
+
+- single fire (want something to happen once)
+- granularity (fine tune animation)
+- bulletproof: change happens without transition
+
+Exercise: Applying Physics to the Ball
+
+codepen: https://codepen.io/lgm527/pen/QWypevv
+gist: https://gist.github.com/lgm527/85431f719b4b2b1800e85a7f2a7fb313
