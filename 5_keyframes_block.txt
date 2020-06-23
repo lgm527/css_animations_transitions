@@ -1,0 +1,29 @@
+The @keyframes block
+
+define group of properties and values
+
+@keyframes black-to-white {
+  0% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+// can replace percentages with 'from' and 'to', (% = clear)
+
+@keyframes black-to-red {
+  0%, 100% {
+    color: black;
+  }
+  50% {
+    color: red;
+  }
+}
+
+.animation {
+  animation:
+    black-to-white 1s linear 1,
+    black-to-red 2s ease-out infinite 2s;
+}
