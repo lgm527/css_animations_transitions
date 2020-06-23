@@ -1,0 +1,28 @@
+Advanced Animations Properties
+
+.animated-thing {
+  animation:
+    $fill-mode
+    $play-state
+    $direction
+}
+
+animation-direction
+Defaults to normal but can be set to alternate, reverse, alternate-reverse.
+
+animation-fill-mode
+Defaults to backwards (0%). Can be set to forwards (100%) or both (combines 0% and 100%).
+
+animation-play-state
+Defaults to running but can be set to paused.
+
+looping: can be infinite
+self starting (does not need trigger like a transition does)
+repeating
+alternating
+grouping, change many things at once
+
+Exercise: Wag the Cat
+
+codepen: https://codepen.io/lgm527/pen/XWXRBYM
+gist: https://gist.github.com/lgm527/6c2149b7a5d49803ff417fc2c48141d0
