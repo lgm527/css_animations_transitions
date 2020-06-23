@@ -6,7 +6,14 @@ steps(x)
 is a timing function
 splits a block of keyframes into x equal steps and 'hops' between them
 
+much "cheaper" to make CSS animation instead of GIF
+
 Exercise: Making a Walk Cycle
 
 codepen: https://codepen.io/lgm527/pen/eYJWKMa
 gist: https://gist.github.com/lgm527/d1da5ce055adcaad6cc5b8eb7a542506
+
+Exercise: DIY Spinner
+
+codepen: https://codepen.io/lgm527/pen/wvMdxaQ
+gist: https://gist.github.com/lgm527/418309dce192c961c37f848b8be0ac3b
