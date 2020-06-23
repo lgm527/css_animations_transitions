@@ -1,0 +1,13 @@
+animations
+similar syntax
+animation element has animation property
+uses @keyframes block
+
+properties:
+$name
+$duration
+$timing-function (optional)
+$animation-function (optional)
+$iteration-count; (defaults to 1)
+
+&& @keyframes
