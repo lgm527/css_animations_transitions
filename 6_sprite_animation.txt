@@ -1,0 +1,12 @@
+Sprite Animation with CSS :D
+
+combine statements (keyframes) for multiple animations
+
+steps(x)
+is a timing function
+splits a block of keyframes into x equal steps and 'hops' between them
+
+Exercise: Making a Walk Cycle
+
+codepen: https://codepen.io/lgm527/pen/eYJWKMa
+gist: https://gist.github.com/lgm527/d1da5ce055adcaad6cc5b8eb7a542506
