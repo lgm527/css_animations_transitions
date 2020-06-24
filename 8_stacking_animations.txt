@@ -1,0 +1,14 @@
+Sequencing: Stacking CSS Animations with Delays
+
+.sequenced-thing {
+  animation:
+    sequence1 1s 2,
+    sequence2 3s 1s 1 forwards;
+}
+
+Animations & transitions run on the system's clock and can fall out of sync
+
+Exercise: Sitting Tuna Down
+
+codepen: https://codepen.io/lgm527/pen/JjGJRKv
+gitst: https://gist.github.com/lgm527/31cac1debbc5ed1800d048fc77aec7e9
