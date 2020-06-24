@@ -1,0 +1,16 @@
+Chaining Animations with Event Listeners
+
+4 must have JS event listeners:
+
+animationstart fires at the start of an animation
+animationend fires at the end of an animation
+animationiteration fires at the end of each iteration of an animation
+transitionend fires at the end of a transition
+
+they will fire for every animation/transition on the element.
+-> target with animation & transition name property
+
+Exercise: Make Tuna Sit after Walking Animation Ends 
+
+codepen: https://codepen.io/lgm527/pen/ZEQyBER
+gist: https://gist.github.com/lgm527/52af88e91d0b00bfaef28deef3f289e2
