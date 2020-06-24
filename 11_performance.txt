@@ -1,0 +1,30 @@
+Performance
+
+csstriggers.com
+- how the browser renders applications:
+
+-- Layout
+resize browser or elements on page
+most expensive task
+-- Paint
+when browser paints pixels
+also expensive task
+-- Composite
+assembles paint
+least expensive task
+
+In past exercises, we have utilized background-position...
+better solutions -> opacity and transform
+
+transform: scale()
+instead of width and height
+
+transform: translate()
+instead of position
+
+opacity: instead of z-index or visibility
+
+Exercise: Walk the Cat (again!)
+
+codepen: https://codepen.io/lgm527/pen/Rwrgooa
+gist: https://gist.github.com/lgm527/7bf4a7b8a8af1570fd4a4ecf6a0456fe
