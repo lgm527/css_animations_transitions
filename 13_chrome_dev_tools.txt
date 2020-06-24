@@ -1,0 +1,7 @@
+Chrome Dev Tools
+
+FPS meter (frames per second)
+Paint rectangles (which is painted by CPU & by GPU)
+Timeline tool (record interactions, has FPS meter and how much of CPU is being used at given time, segment portion)
+
+* don't animate if it isn't visible :D
