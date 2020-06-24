@@ -1,0 +1,12 @@
+Overloading the @keyframes Block
+
+we can animation-timing-functions into @keyframes keys
+
+use multiple timing functions at the same time
+
+- no looping
+- only one timing function at a time for all properties
+
+Demo: Cat walk + sit with only one @keyframe block 
+
+codepen: https://codepen.io/lgm527/pen/abdwmLK
