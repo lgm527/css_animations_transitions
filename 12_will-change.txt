@@ -1,0 +1,16 @@
+will-change: css property
+give heads up to browser about upcoming changes for optimization
+
+over-optimization will lead to more latency
+
+will-change: CSS property takes another CSS property
+
+.in-view .animated-thing {
+    will-change: transform;
+}
+.in-view .animated-thing:hover {
+    transform: translateY(5%);
+}
+
+(this thing will transform so do some optimization)
+(done at on at need basis right before change occurs, do not put it on everything)
